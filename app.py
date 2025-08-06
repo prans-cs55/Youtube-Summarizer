@@ -6,7 +6,7 @@ from google.genai import types
 
 app = Flask(__name__)
 
-PROJECT_ID = "projectid
+PROJECT_ID = "projectid"
 
 client = genai.Client(
    vertexai=True,
