@@ -1,5 +1,4 @@
 import os
-
 from flask import Flask, render_template, request
 from google import genai
 from google.genai import types
